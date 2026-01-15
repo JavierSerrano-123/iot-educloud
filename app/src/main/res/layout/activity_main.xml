@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F9FAFB"
+    tools:context=".MainActivity">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a IoTEduCloud"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Datos del sensor -->
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperatura: -- °C"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humedad: -- %"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvPressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presión: -- hPa"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Estado del dispositivo -->
+    <TextView
+        android:id="@+id/tvDeviceState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado del dispositivo: OFF"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Botón para encender/apagar -->
+    <Button
+        android:id="@+id/btnToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encender"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1976D2"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botón para cerrar sesión -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D32F2F" />
+</LinearLayout>

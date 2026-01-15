@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F4F7FB"
+    tools:context=".DeviceControlActivity">
+
+    <TextView
+        android:id="@+id/tvDeviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargando..."
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado: Desconocido"
+        android:textSize="18sp"
+        android:textColor="#444"
+        android:layout_marginBottom="16dp" />
+
+    <Switch
+        android:id="@+id/switchDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encender/Apagar"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnReadings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Lecturas"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:backgroundTint="#F44336" />
+</LinearLayout>

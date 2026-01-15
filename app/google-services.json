@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "494929867421",
+    "firebase_url": "https://ioteducloudbd-default-rtdb.firebaseio.com",
+    "project_id": "ioteducloudbd",
+    "storage_bucket": "ioteducloudbd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494929867421:android:e79060b026051cd209da74",
+        "android_client_info": {
+          "package_name": "com.ioteducloud.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4vzQXEQfJS54ohEVApjHOP8IANFYUc6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IoTEduCloud" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/buttonText</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/buttonText</item>
+
+        <item name="android:colorBackground">@color/backgroundDark</item>
+
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#B0BEC5</item>
+    </style>
+</resources>

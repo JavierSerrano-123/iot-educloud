@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.IoTEduCloud" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/buttonText</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/buttonText</item>
+
+        <!-- Fondo -->
+        <item name="android:colorBackground">@color/backgroundLight</item>
+
+        <!-- Texto -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+        <!-- Botones -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <!-- Estilo general de botones -->
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/buttonPrimary</item>
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+</resources>

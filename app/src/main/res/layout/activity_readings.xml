@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundLight"
+    android:padding="16dp"
+    tools:context=".ReadingsActivity">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lecturas del Sensor"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Sección de lectura actual -->
+    <LinearLayout
+        android:id="@+id/layoutCurrentReadings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/tvCurrentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lecturas actuales"
+            android:textSize="18sp"
+            android:textColor="@color/textPrimary"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperatura: -- °C"
+            android:textSize="16sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humedad: -- %"
+            android:textSize="16sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvPressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Presión: -- hPa"
+            android:textSize="16sp"
+            android:textColor="@color/textSecondary" />
+    </LinearLayout>
+
+    <!-- Título del historial -->
+    <TextView
+        android:id="@+id/tvHistoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historial de lecturas"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Lista de lecturas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerReadings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/backgroundLight"
+        android:paddingBottom="8dp" />
+
+</LinearLayout>
