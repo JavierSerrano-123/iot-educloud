@@ -1,4 +1,4 @@
-# IoT EduCloud – Monitoreo Ambiental con ESP8266 y Android 🌐📱
+# IoT EduCloud – Monitoreo Ambiental con ESP8266 y Android 
 
 Sistema IoT para monitoreo climatológico que integra un dispositivo ESP8266, Firebase Realtime Database y una aplicación Android desarrollada en Java con control por roles.
 
