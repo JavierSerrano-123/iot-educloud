@@ -114,20 +114,31 @@ Flujo de comunicación entre dispositivos
 
 <img width="714" height="264" alt="image" src="https://github.com/user-attachments/assets/d433fd46-14cb-47be-b268-09438b8af9b0" />
 
-## Capturas
-
-Viewer:
-
-![b1312209-45c1-4198-aa0b-1686bbcb38c5](https://github.com/user-attachments/assets/bf9bd9fa-d4b8-4cce-abc0-d813d7fde707)
-![1022995a-7c75-406a-855c-766977f3997c](https://github.com/user-attachments/assets/66f1bb09-269e-4d04-8c46-35e0577d047a)
-![a330e9a9-7b85-43c2-ad6d-aedcea06271b](https://github.com/user-attachments/assets/03154ab7-be05-425a-ab26-80464002dacc)
-![17a1d024-8736-4c81-bdab-4f212eb4c645](https://github.com/user-attachments/assets/cc28faf2-0d66-4355-9e99-dbc4419dd8cb)
 
 
-Operator:
+## Capturas por Rol
 
-![b03971e5-750e-4c2d-88f6-2d2d41fdcfc7](https://github.com/user-attachments/assets/3a853228-c9ef-4165-8c85-defbcb7f57e9)
-![69948ea4-d693-4c4a-adf2-3aacd3d9f2dd](https://github.com/user-attachments/assets/24129a96-75c0-42a1-bde3-ce9e642c2df4)
+###  Viewer
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bf9bd9fa-d4b8-4cce-abc0-d813d7fde707" width="350">
+  <img src="https://github.com/user-attachments/assets/66f1bb09-269e-4d04-8c46-35e0577d047a" width="350">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/03154ab7-be05-425a-ab26-80464002dacc" width="350">
+  <img src="https://github.com/user-attachments/assets/cc28faf2-0d66-4355-9e99-dbc4419dd8cb" width="350">
+</p>
+
+---
+
+### Operator
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3a853228-c9ef-4165-8c85-defbcb7f57e9" width="350">
+  <img src="https://github.com/user-attachments/assets/24129a96-75c0-42a1-bde3-ce9e642c2df4" width="350">
+</p>
+
 
 
 
