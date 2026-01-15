@@ -108,12 +108,13 @@ Proyecto realizado de forma colaborativa.
 Este repositorio contiene mi aporte enfocado en la aplicación Android e integración con Firebase.
 
 
-
+---
 
 Flujo de comunicación entre dispositivos
+
 <img width="714" height="264" alt="image" src="https://github.com/user-attachments/assets/d433fd46-14cb-47be-b268-09438b8af9b0" />
 
-## 🖼 Capturas
+## Capturas
 
 Viewer:
 
